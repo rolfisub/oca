@@ -1,3 +1,5 @@
+
+
 public class InitOrder
 {
     private String name = "Inline";
@@ -10,6 +12,9 @@ public class InitOrder
 
     public static void main (String[]  args) {
         InitOrder init = new InitOrder();
+
+
+
     }
 
     {
