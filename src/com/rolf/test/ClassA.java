@@ -1,7 +1,7 @@
 package com.rolf.test;
 
 public class ClassA {
-    String name;
+    private String name;
     public ClassA(String _name) {
         name = _name;
     }
@@ -13,4 +13,6 @@ public class ClassA {
     public void setName(String _name) {
         name = _name;
     }
+
+    {System.out.println("this is a weird instance initializer");}
 }
